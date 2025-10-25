@@ -521,16 +521,18 @@ form {
 	width: 143px;
 	height: 104px;
 	margin-right: 6px;
-	border-radius: 20px;
+	border-radius: 15px;
 	display: block;
 	cursor: pointer;
 	transition: all 0.3s;
+	overflow: hidden;
+	border-radius: 20px;
 }
 .slider-nav__item img {
-	border: 3px solid transparent;
+	border-radius: 16px;
 }
-.slick-current .slider-nav__item img {
-	border-color: #e6c87e;
+.slick-current .slider-nav__item {
+	border: 3px solid #e6c87e;
 }
 .slider-nav {
 	margin-top: 8px;
