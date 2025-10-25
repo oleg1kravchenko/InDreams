@@ -365,6 +365,7 @@ form {
 }
 .district__map {
 	margin-right: -30px;
+	display: block;
 }
 .district__title {
 	font-size: 24px;

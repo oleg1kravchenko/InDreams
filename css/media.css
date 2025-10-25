@@ -298,7 +298,7 @@
 		max-width: 180px;
 	}
 	.advantages__leaf {
-		top: 124px;
+		top: 165px;
 		right: 0;
 	}
 	.name-section {
@@ -370,7 +370,7 @@
 		margin-bottom: 24px;
 	}
 	.district {
-		padding-bottom: 82px;
+		padding-bottom: 74px;
 	}
 	.apartments .col-lg-7 {
 		order: -1;
@@ -408,6 +408,7 @@
 	}
 	.apartments__features {
 		padding: 0;
+		padding-right: 10px;
 		margin: 0;
 		display: flex;
 		background: transparent;
@@ -663,7 +664,7 @@
 		padding: 8px 0;
 	}
 	.unit-income::after {
-		right: -4px;
+		right: -7px;
 		top: 10px;
 		bottom: 10px;
 		border-right: 1px dashed #b1b1b1;
@@ -815,7 +816,7 @@
 		padding: 0 15px;
 	}
 	.team .container_full {
-		padding-top: 74px;
+		padding-top: 64px;
 	}
 	.row.row_team>div {
 		padding: 0 4px;
@@ -1033,6 +1034,12 @@
 	}
 	.fancybox-slide {
 		padding: 15px;
+	}
+	.apartments .head-section {
+		margin-bottom: 34px;
+	}
+	.apartments .slider-nav {
+		margin-right: -15px;
 	}
 }
 
