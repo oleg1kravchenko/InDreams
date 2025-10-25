@@ -48,7 +48,7 @@ $(document).ready(function () {
 		}
 	});
 
-	$(".menu-overlay").click(function () {
+	$(".menu-overlay, .menu-mobile a").click(function () {
 		$(".sandwich").removeClass("active");
 		$(".menu-mobile").slideUp(200);
 		$(".menu-overlay").fadeOut(200);
